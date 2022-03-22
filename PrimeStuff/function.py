@@ -1,3 +1,5 @@
+import math
+
 def findCoPrime(n):
 	pfactor = primeFactors(n)
 	pnow = pfactor[0]
